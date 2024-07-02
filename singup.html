@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LogIn</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <main>
+            <section class>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-lg-10 col-xxl-8 mx-auto">
+                            <div class="logIn-content p-5 my-5">
+                                <h1 class="mb-3">Smart Login System</h1>
+                                <div class="form-floating mb-3 ">
+                                    <input type="text"
+                                        class="form-control mb-2"
+                                        id="userName"
+                                        placeholder="userName">
+                                    <div class="alert alert-danger d-none py-2"
+                                        role="alert">
+                                        <small>
+                                            must start with cabital and more
+                                            than 3 letters
+                                        </small>
+                                    </div>
+                                    <label for="userName">Enter User Name</label>
+                                </div>
+
+                                <div class="form-floating mb-3 ">
+                                    <input type="email"
+                                        class="form-control mb-2"
+                                        id="userEmailSignUp"
+                                        placeholder="userEmail">
+                                    <div class="alert alert-danger d-none py-2"
+                                        role="alert">
+                                        <small id="alert">
+                                            must has more than 5 letters followed by @gamil.com
+                                        </small>
+                                    </div>
+                                    <label for="userEmailSignUp">Enter User Email</label>
+                                </div>
+                                <div class="form-floating mb-3 ">
+                                    <input type="password"
+                                        class="form-control mb-2"
+                                        id="userPasswordSignUp"
+                                        placeholder="userPassword">
+                                    <div class="alert alert-danger d-none py-2"
+                                        role="alert">
+                                        <small>
+                                            must start with cabital and more
+                                            than 5 letters
+                                        </small>
+                                    </div>
+                                    <label for="userPasswordSignUp">Enter User
+                                        Password</label>
+                                </div>
+                                <button type="submit" id="signUp"
+                                    class="btn btn-outline-secondary btn-outline-lightblue w-100 my-3">Sign Up</button>
+                                <p class="text-white">Don’t have an account?
+                                    <a class="special" href="index.html">Sign In</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
